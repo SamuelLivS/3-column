@@ -25,13 +25,13 @@ main {
 
 .container {
     display: flex;
-    border-radius: 5px;
+    border-radius: .8rem;
     overflow: hidden;
 }
 
 section {
-    width: 325px;
-    padding: 60px 50px;
+    width: 20rem;
+    padding: 4rem 3rem;
 }
 
 .sedan-section {
@@ -59,23 +59,23 @@ section {
 }
 
 section h2 {
-    margin: 30px 0;
+    margin: 2rem 0;
     font-size: 2.5em;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: var(--Very-light-gray);
     text-transform: uppercase;
 }
 
 section p {
     color: var(--Transparent-white);
-    line-height: 25px;
-    margin-bottom: 80px;
+    line-height: 1.5em;
+    margin-bottom: 5rem;
 }
 
 section button {
-    padding: 15px 40px;
-    border-radius: 30px;
-    border: solid 1px var(--Very-light-gray);
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    border: solid .15rem var(--Very-light-gray);
     background: var(--Very-light-gray);
     text-decoration: none;
     transition: 200ms;
@@ -88,7 +88,7 @@ section button:hover {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: .8em;
     text-align: center;
 }
 
@@ -99,18 +99,18 @@ section button:hover {
 @media (max-width:920px) {
 
     main {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     .container {
         flex-direction: column;
     }
     section{
-        padding: 40px 40px;
+        padding: 2.5rem;
     }
 
     section p {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 }
